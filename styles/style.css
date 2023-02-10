@@ -142,7 +142,8 @@ main #form #form-formulario form input{
 }
 
 main #form #form-formulario form button, 
-.form-formulario-cadastrar{
+.form-formulario-cadastrar,
+.form-clientes .form-registro form .botao button{
     padding: 8px;
     border: none;
     background-color: var(--cor--principal);
@@ -171,7 +172,7 @@ main #form #form-formulario{
 .form-registro .grid-4,
 .form-registro .grid-3 {
     display: grid;
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
 
 .form-registro .grid-2 {
@@ -260,6 +261,7 @@ main .storymapper-dashboard div{
     color: black;
     border: solid black;
     border-radius: 10px;
+<<<<<<< HEAD
 }
 
 .pagconsultas main #informe-consulta #registro h1{
@@ -300,3 +302,41 @@ main .storymapper-dashboard div{
     background-color: #DF2F2F;
 }
 
+=======
+<<<<<<< HEAD
+}
+
+.form-registro input{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.form-registro form input{
+    width: 100%;
+}
+
+.form-registro form div{
+    padding: 5px;
+}
+
+.form-clientes .form-registro form .botao{
+    display: flex;
+    width: 300px;
+}
+
+.form-clientes .form-registro form .botao .btn-verde{
+    background-color: #1CF365;
+    margin-right: 10px;
+}
+
+.form-clientes .form-registro form .botao .btn-vermelho{
+    background-color: #DF2F2F;
+=======
+>>>>>>> cbc2f55727f472ac951190a919fac8199e830e57
+}
+>>>>>>> 44e8a5e021274aa99b334c8a608986c100ea96cc
