@@ -142,7 +142,8 @@ main #form #form-formulario form input{
 }
 
 main #form #form-formulario form button, 
-.form-formulario-cadastrar{
+.form-formulario-cadastrar,
+.form-clientes .form-registro form .botao button{
     padding: 8px;
     border: none;
     background-color: var(--cor--principal);
@@ -171,7 +172,7 @@ main #form #form-formulario{
 .form-registro .grid-4,
 .form-registro .grid-3 {
     display: grid;
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
 
 .form-registro .grid-2 {
@@ -261,6 +262,7 @@ main .storymapper-dashboard div{
     border: solid black;
     border-radius: 10px;
 
+
 }
 
 main .form-formulario-submit a{
@@ -269,5 +271,41 @@ main .form-formulario-submit a{
 
 main .form-formulario-submit2 a{
     text-decoration: none;
+
+
+
+}
+
+.form-registro input{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.form-registro form input{
+    width: 100%;
+}
+
+.form-registro form div{
+    padding: 5px;
+}
+
+.form-clientes .form-registro form .botao{
+    display: flex;
+    width: 300px;
+}
+
+.form-clientes .form-registro form .botao .btn-verde{
+    background-color: #1CF365;
+    margin-right: 10px;
+}
+
+.form-clientes .form-registro form .botao .btn-vermelho{
+    background-color: #DF2F2F;
+    
 
 }
