@@ -161,3 +161,8 @@ main #form #form-formulario{
 #rodape{
     background-color: var(--cor--topo);
 }
+
+#menu-dashboard{
+    background-color: #D8F1FBCC;
+    
+}
