@@ -262,3 +262,10 @@ main .storymapper-dashboard div{
     border-radius: 10px;
 }
 
+main .form-formulario-submit a{
+    text-decoration: none;
+}
+
+main .form-formulario-submit2 a{
+    text-decoration: none;
+}
