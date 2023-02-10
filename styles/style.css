@@ -167,7 +167,7 @@ main #form #form-formulario{
     background-color: var(--cor--topo);
 }
 
-<<<<<<< HEAD
+
 main #form.form-formulario-cachorro #form-formulario{
     background-image: none;
    }
@@ -180,7 +180,7 @@ main #form #form-texto{
 main #form #form-formulario form button{
     border-radius: 30px;
 }
-=======
+
 /* início das modificações do css do registro */
 main #form.form-sem-cachorro #form-formulario{
     background-image: none;
@@ -237,5 +237,3 @@ main .storymapper-dashboard div{
     border-radius: 10px;
 }
 /* style do dashboard */
-
->>>>>>> c8fda5928425bf84761dde4df30adef33545ef2c
