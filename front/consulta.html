@@ -10,47 +10,46 @@
 </head>
 <body class="pagconsultas">
     <header id="header">
-        <img src="../img/logo.png" alt="Logo">
+        <div>
+            <img src="../img/logo.png" alt="Logo">
+        </div>
         <nav>
             <a href="index.html">Sair</a>
         </nav>
     </header>
-<main>
-    <section id="informe-consulta">
-        <br>
-        <div id="registro">
-            <h1> Registrar uma consulta</h1>
-        </div>
-        <br>
-        <div id="form-formulario-Consulta">
-            <form action="">
-            <div class="grid-3">
-                <div class="form-formulario-Consulta"> 
-                    <label for="Insira o seu nome">Nome completo do cliente</label>
-                    <input type="" required minlength="10" placeholder="">   
+<main class="main1">
+    <section>
+        <div>
+           <form action="" class="form-consulta">
+                <div class="registrar"><h1>Registrar uma consulta</h1></div>
+
+                <div class="grid-3">
+                    <div>
+                        <label for="insira o seu nome">Insira o seu nome</label>
+                        <input type="" required minlength="3" placeholder="">
+                    </div>
+                    <div>
+                        <label for="dd/mm/yyyy">Data consulta</label>
+                        <input type="" required minlength="8" placeholder="dd/mm/yyyy">
+                    </div>
+                    <div>
+                        <label for="">Hora consulta</label>
+                        <input type="" required minlength="6" placeholder="hh:mm:ss">
+                    </div>
                 </div>
-                <div class="form-formulario-Data">
-                    <label for="dd/mm/yyyy">Data da consulta</label>
-                    <input type="" required maxlength="8" placeholder="dd/mm/yyyy"> 
-                </div>
-                <div class="form-formulario-Hora">
-                    <label for="">Hora da consulta</label>
-                    <input type="" required minlength="6" placeholder="hh:mm:ss">
-                </div>
-            </div>
-            <div class="width-100">
+
                 <div>
-                    <label for="">Observações adicionais</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>   
+                    
+                    <label class="OBS" for= "">Observações</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
                 </div>
-            </div>
-                <div class="form-formulario-botao">
-                    <button type="button" class="botao-verde">Salvar</button>
-                    <button type="button" class="botao vermelho">Cancelar</button>
+
+                <div class="ladoALado">
+                    <a href="#" class="verde">Salvar</a>
+                    <a href="#" class="vermelho">Cancelar</a>
                 </div>
-                
             </form>
-        </div> 
+        </div>
     </section>  
 </main>
 </body>

@@ -141,9 +141,7 @@ main #form #form-formulario form input{
     margin-bottom: 10px;
 }
 
-main #form #form-formulario form button, 
-.form-formulario-cadastrar,
-.form-clientes .form-registro form .botao button{
+main #form #form-formulario  form button {
     padding: 8px;
     border: none;
     background-color: var(--cor--principal);
@@ -151,10 +149,6 @@ main #form #form-formulario form button,
     border-radius: 10px;
     width: 380px;
     cursor: pointer;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    
 }
 
 main #form #form-formulario{
@@ -168,65 +162,7 @@ main #form #form-formulario{
     background-color: var(--cor--topo);
 }
 
-.form-registro .grid-2,
-.form-registro .grid-4,
-.form-registro .grid-3 {
-    display: grid;
-    padding: 0px 0px;
-}
-
-.form-registro .grid-2 {
-    grid-template-columns: 3fr 2fr;
-}
-.form-registro .grid-4 {
-    grid-template-columns: 2fr 2fr 2fr 1fr;
-}
-
-.form-registro .grid-3 {
-    grid-template-columns: 2fr 3fr 1fr;
-}
-.form-registro label {
-    display: block;
-    padding-bottom: 10px;
-}
-.form-registro{
-    border-radius: 20px;
-}
-
-
-main #form.form-formulario-cachorro #form-formulario{
-    background-image: none;
-   }
-
-main #form #form-texto{
-    padding-top: 88px;
-       
-}
-
-main #form #form-formulario form button{
-    border-radius: 30px;
-}
-
-/* início das modificações do css do registro */
-main #form.form-sem-cachorro #form-formulario{
-    background-image: none;
-}
-
-main .form-formulario-possuo-cadastro a{
-    text-decoration: none;
-    color: var(--cor--preta);
-}
-#form-texto-registro h1{
-    text-align: center;
-}
-main{
-    padding: 30px;
-}
-/* finalização das modificações do css do registro */
-
-/* style do dashboard */
 #menu-dashboard{
-
     background-color: #D8F1FBCC;
 
 }
@@ -261,87 +197,79 @@ main .storymapper-dashboard div{
     color: black;
     border: solid black;
     border-radius: 10px;
-
 }
 
-.pagconsultas main #informe-consulta #registro h1{
-    padding: 25px;
-    width: 350px;
-}
-.pagconsultas main #informe-consulta #form-formulario-Consulta form{
+.main1 section div #form-consulta{
     display: block;
 }
 
-.pagconsultas main #informe-consulta #form-formulario-Consulta form .grid-3{
+.grid-3{
     display: grid;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 30px;
     grid-template-columns: 3fr 1fr 1fr;
+}
+
+.registrar{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.width-100{
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 30px;
+    width: 100%;
+    display: block;
+}
+
+.pagconsultas #header {
+    background-color: var(--cor--topo);
+}
+
+.pagconsultas label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.pagconsultas textarea,
+.pagconsultas input {
+    width: 100%;
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.19);
+box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+padding: 10px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.pagconsultas .grid-3 {
     gap: 20px;
 }
-.pagconsultas main #informe-consulta #form-formulario-Consulta form input
-.pagconsultas main #informe-consulta #form-formulario-Consulta form textarea{
-     width: 100%;
-     display: block;
-     background: #FAFBFF;
-     border: 1px solid rgba(0,0,0,0.19);
-     box-shadow: 0px 8px -5px rgba(0,0,0,0.19);
-     border-radius: 10px;
-    }
-.pagconsultas main  #informe-consulta {
-    padding: 30;
+
+.ladoALado{
+    margin-top: 30px;
+}
+ 
+.pagconsultas .OBS{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.ladoALado .verde,
+.ladoALado .vermelho{
+    text-decoration: none;
+    padding: 5px 45px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 15px;
 }
 
-.form-formulario-botao{
-    display: flex;
-    width: 300px;
+.ladoALado .verde{
+    background-color: green;
 }
-.form-formulario-botao .botao-verde{
-    background-color: #1CF365;
-    margin-right: 10px;
+.ladoALado .vermelho{
+    background-color: red;
 }
-.form-formulario-botao .botao-vermelho{
-    background-color: #DF2F2F;
-}
-
-=======
-<<<<<<< HEAD
-}
-
-.form-registro input{
-    display: block;
-    padding: 8px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-    border-radius: 10px;
-    width: 200px;
-}
-
-.form-registro form input{
-    width: 100%;
-}
-
-.form-registro form div{
-    padding: 5px;
-}
-
-.form-clientes .form-registro form .botao{
-    display: flex;
-    width: 300px;
-}
-
-.form-clientes .form-registro form .botao .btn-verde{
-    background-color: #1CF365;
-    margin-right: 10px;
-}
-
-.form-clientes .form-registro form .botao .btn-vermelho{
-    background-color: #DF2F2F;
-<<<<<<< HEAD
-=======
->>>>>>> cbc2f55727f472ac951190a919fac8199e830e57
-}
->>>>>>> 44e8a5e021274aa99b334c8a608986c100ea96cc
-=======
-    
-}
->>>>>>> 9d7495fb2b07d8835d19a517a8a346d804d5a65a
