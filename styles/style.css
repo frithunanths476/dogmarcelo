@@ -261,6 +261,7 @@ main .storymapper-dashboard div{
     color: black;
     border: solid black;
     border-radius: 10px;
+<<<<<<< HEAD
 }
 
 .form-registro input{
@@ -293,4 +294,6 @@ main .storymapper-dashboard div{
 
 .form-clientes .form-registro form .botao .btn-vermelho{
     background-color: #DF2F2F;
+=======
+>>>>>>> cbc2f55727f472ac951190a919fac8199e830e57
 }
