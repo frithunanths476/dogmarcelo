@@ -261,7 +261,7 @@ main .storymapper-dashboard div{
     color: black;
     border: solid black;
     border-radius: 10px;
-<<<<<<< HEAD
+
 }
 
 .pagconsultas main #informe-consulta #registro h1{
@@ -336,7 +336,12 @@ main .storymapper-dashboard div{
 
 .form-clientes .form-registro form .botao .btn-vermelho{
     background-color: #DF2F2F;
+<<<<<<< HEAD
 =======
 >>>>>>> cbc2f55727f472ac951190a919fac8199e830e57
 }
 >>>>>>> 44e8a5e021274aa99b334c8a608986c100ea96cc
+=======
+    
+}
+>>>>>>> 9d7495fb2b07d8835d19a517a8a346d804d5a65a
