@@ -19,8 +19,4 @@
         display: block;
     }
 }
-@media(max-width: 490px){
-    main #form.form-sem-cachorro #form-formulario{
-        display: block;
-    }
-}
+
