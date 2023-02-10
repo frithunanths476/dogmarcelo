@@ -30,12 +30,15 @@
 /* aqui termina o registro. */
 
 
+@media(max-width: 320px){
+
     .form-registro .grid-2, .form-registro .grid-4, .form-registro .grid-3 {
         display: block;
     }
     .form-clientes .form-registro form .botao {
         display: block;
     }
+}
 
 @media(max-width:320px){
     .form-clientes .form-registro #botao form .btn-verde, .form-clientes .form-registro form .botao .btn-vermelho{
@@ -43,9 +46,9 @@
     }
 }
 
+
 @media (max-width: 420px) {
     .form-clientes .form-registro form .botao button {
         width: 90%;
     }
 }
-
