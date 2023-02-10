@@ -157,7 +157,3 @@ main #form #form-formulario{
     /* contain pega o conteudo da imagem e coloca o que precisa */
     background-size: contain;
 }
-
-#rodape{
-    background-color: var(--cor--topo);
-}
