@@ -19,3 +19,11 @@
         display: block;
     }
 }
+
+
+@media(max-width: 320px){
+    main #storymapper-dashboard div{
+        width: auto;
+    }
+}
+

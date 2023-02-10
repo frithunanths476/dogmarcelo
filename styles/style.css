@@ -157,3 +157,83 @@ main #form #form-formulario{
     /* contain pega o conteudo da imagem e coloca o que precisa */
     background-size: contain;
 }
+
+#rodape{
+    background-color: var(--cor--topo);
+}
+
+#menu-dashboard{
+    background-color: #D8F1FBCC;
+
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+
+.dashboard #menu-dashboard a{
+    text-decoration: none;
+    color: var(--cor--preta);
+    background-color: var(--cor--principal);
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    width: 170px;
+    justify-content: left;
+    align-items: left;
+    display: block;
+    margin: 10px auto;
+}
+
+main .storymapper-dashboard div{
+    background-color: white;
+    width: auto;
+    display: inline-block;
+    margin: 20px;
+    padding: 60px;
+    color: black;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.pagconsultas main #informe-consulta #registro h1{
+    padding: 25px;
+    width: 350px;
+}
+.pagconsultas main #informe-consulta #form-formulario-Consulta form{
+    display: block;
+}
+
+.pagconsultas main #informe-consulta #form-formulario-Consulta form .grid-3{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 20px;
+}
+.pagconsultas main #informe-consulta #form-formulario-Consulta form input
+.pagconsultas main #informe-consulta #form-formulario-Consulta form textarea{
+     width: 100%;
+     display: block;
+     background: #FAFBFF;
+     border: 1px solid rgba(0,0,0,0.19);
+     box-shadow: 0px 8px -5px rgba(0,0,0,0.19);
+     border-radius: 10px;
+    }
+.pagconsultas main  #informe-consulta {
+    padding: 30;
+}
+
+.form-formulario-botao{
+    display: flex;
+    width: 300px;
+}
+.form-formulario-botao .botao-verde{
+    background-color: #1CF365;
+    margin-right: 10px;
+}
+.form-formulario-botao .botao-vermelho{
+    background-color: #DF2F2F;
+}
+

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../styles/mobile.css">
     <title>Consulta</title>
 </head>
-<body>
+<body class="pagconsultas">
     <header id="header">
         <img src="../img/logo.png" alt="Logo">
         <nav>
@@ -19,22 +19,22 @@
     <section id="informe-consulta">
         <br>
         <div id="registro">
-            <h1> Registrar uma Consulta</h1>
+            <h1> Registrar uma consulta</h1>
         </div>
         <br>
         <div id="form-formulario-Consulta">
             <form action="">
-            <div>
+            <div class="grid-3">
                 <div class="form-formulario-Consulta"> 
                     <label for="Insira o seu nome">Nome completo do cliente</label>
                     <input type="" required minlength="10" placeholder="">   
                 </div>
                 <div class="form-formulario-Data">
-                    <label for="dd/mm/yyyy">data consulta</label>
+                    <label for="dd/mm/yyyy">Data da consulta</label>
                     <input type="" required maxlength="8" placeholder="dd/mm/yyyy"> 
                 </div>
                 <div class="form-formulario-Hora">
-                    <label for="">hora consulta</label>
+                    <label for="">Hora da consulta</label>
                     <input type="" required minlength="6" placeholder="hh:mm:ss">
                 </div>
             </div>
@@ -44,13 +44,11 @@
                     <textarea name="" id="" cols="30" rows="10"></textarea>   
                 </div>
             </div>
-                <div class="form-formulario-submit">
-                    <button type="submit">Salvar</button>
+                <div class="form-formulario-botao">
+                    <button type="button" class="botao-verde">Salvar</button>
+                    <button type="button" class="botao vermelho">Cancelar</button>
                 </div>
-                <div class="form-formulario-reset">
-                    <button type="reset">Cancelar</button>
-                </div>
-                </div>
+                
             </form>
         </div> 
     </section>  
