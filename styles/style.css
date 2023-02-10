@@ -161,3 +161,16 @@ main #form #form-formulario{
 #rodape{
     background-color: var(--cor--topo);
 }
+
+main #form.form-formulario-cachorro #form-formulario{
+    background-image: none;
+   }
+
+main #form #form-texto{
+    padding-top: 88px;
+       
+}
+
+main #form #form-formulario form button{
+    border-radius: 30px;
+}

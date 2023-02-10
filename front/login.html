@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/mobile.css">
+    <link rel="stylesheet" href="index.html">
     <title>Dog</title>
 </head>
 <body>
@@ -18,33 +19,29 @@
     </header>
 
     <main>
-        <section id="form">
-            <br>
+        <section id="form" class="form-formulario-cachorro">
             <div id="form-texto">
-                <h1>Por favor, inscreva-se</h1>
-                <br>
+                <h1>Por favor inscreva-se!</h1>
             </div>
             <div id="form-formulario">
                 <form action="">
-                    <div class="form-formulario-email">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" required placeholder="informe seu e-mail">
-                    </div>
-                    <div class="form-formulario-senha">
-                        <label for="senha">Senha</label>
-                        <input type="text" name="senha" id="senha" required minlength="4" maxlength="15" placeholder="informe a sua senha">
-                    </div>
-                    <div class="form-formulario-submit">
-                        <button type="submit"><a href="dashboard.html">Logar</a></button>
-                    </div>
-                    <br>
-                    <div class="form-formulario-submit">
-                        <button type="submit">Ainda não cadastrado? Cadastra-se </button>
-                    </div>
-                </form>
+            <div class="form-formulario-email">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required placeholder="informe seu e-mail">
             </div>
-        </section>
-    </main>
+            <div class="form-formulario-senha">
+                    <label for="ssenha">Senha</label>
+                    <input type="password" name="senha" id="senha" required placeholder="informe o seu telefone" minlength="10">
+            </div>
+            <div class="form-formulario-submit">
+                    <a href="dashboard.html"><button type="button">Login</button></a>
+                    <br> <br>
+            </div>
+            <div class="form-formulario-submit2">
+                <a href="registro.html"><button type="button">Ainda não se cadastrou? Cadastre-se</button></a>
 
+            </div>
+       </section>
+    </main>
 </body>
 </html>
