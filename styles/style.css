@@ -173,3 +173,28 @@ main #form #form-formulario{
     grid-template-rows: 1fr;
     height: 100vh;
 }
+
+.dashboard #menu-dashboard a{
+    text-decoration: none;
+    color: var(--cor--preta);
+    background-color: var(--cor--principal);
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    width: 170px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+main .storymapper-dashboard div{
+    background-color: white;
+    width: 350px;
+    display: inline-block;
+    margin: 20px;
+    padding: 60px;
+    color: black;
+    border: solid black;
+    border-radius: 10px;
+}
