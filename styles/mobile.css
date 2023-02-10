@@ -20,3 +20,11 @@
     }
 }
 
+/* aqui começa o registro */
+@media (max-width: 390px) {
+    main #form #form-formulario form button, .form-formulario-cadastrar,
+    main #form #form-formulario form input {
+        width: 100%;
+    }
+}
+/* aqui termina o registro */

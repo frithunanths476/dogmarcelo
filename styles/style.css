@@ -167,6 +167,7 @@ main #form #form-formulario{
     background-color: var(--cor--topo);
 }
 
+/* início do style do cadastro */
 .form-registro .grid-2,
 .form-registro .grid-4,
 .form-registro .grid-3 {
@@ -205,8 +206,9 @@ main #form #form-texto{
 main #form #form-formulario form button{
     border-radius: 30px;
 }
+/* fim do style do cadastro */
 
-/* início das modificações do css do registro */
+/* início do style do registro */
 main #form.form-sem-cachorro #form-formulario{
     background-image: none;
 }
@@ -221,9 +223,9 @@ main .form-formulario-possuo-cadastro a{
 main{
     padding: 30px;
 }
-/* finalização das modificações do css do registro */
+/* finalização do style do registro */
 
-/* style do dashboard */
+/* início do style do dashboard */
 #menu-dashboard{
 
     background-color: #D8F1FBCC;
@@ -261,3 +263,4 @@ main .storymapper-dashboard div{
     border: solid black;
     border-radius: 10px;
 }
+/* fim do style do dashboard */
