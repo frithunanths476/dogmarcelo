@@ -260,6 +260,7 @@ main .storymapper-dashboard div{
     color: black;
     border: solid black;
     border-radius: 10px;
+
 }
 
 main .form-formulario-submit a{
@@ -268,4 +269,5 @@ main .form-formulario-submit a{
 
 main .form-formulario-submit2 a{
     text-decoration: none;
+
 }
