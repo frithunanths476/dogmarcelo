@@ -161,3 +161,28 @@ main #form #form-formulario{
 #rodape{
     background-color: var(--cor--topo);
 }
+
+.form-registro .grid-2,
+.form-registro .grid-4,
+.form-registro .grid-3 {
+    display: grid;
+    padding: 20px 0px;
+}
+
+.form-registro .grid-2 {
+    grid-template-columns: 3fr 2fr;
+}
+.form-registro .grid-4 {
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+}
+
+.form-registro .grid-3 {
+    grid-template-columns: 2fr 3fr 1fr;
+}
+.form-registro label {
+    display: block;
+    padding-bottom: 10px;
+}
+.form-registro{
+    border-radius: 20px;
+}
