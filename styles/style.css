@@ -261,8 +261,6 @@ main .storymapper-dashboard div{
     color: black;
     border: solid black;
     border-radius: 10px;
-
-
 }
 
 main .form-formulario-submit a{
@@ -271,9 +269,6 @@ main .form-formulario-submit a{
 
 main .form-formulario-submit2 a{
     text-decoration: none;
-
-
-
 }
 
 .form-registro input{
@@ -306,6 +301,4 @@ main .form-formulario-submit2 a{
 
 .form-clientes .form-registro form .botao .btn-vermelho{
     background-color: #DF2F2F;
-    
-
 }
