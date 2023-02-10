@@ -1,0 +1,163 @@
+/* Configuração para cores */
+:root{
+    --cor--principal: #EA1C81;
+    --cor--topo: #D8F1FB82;
+    --cor--preta: black;
+    --cor--branca: white;
+    --cor--roxo: purple;
+    --cor--fundo: #FAFBFF;
+}
+
+*{
+    margin: 0px;
+    /* padding é espaçamento interno */
+    padding: 0px;
+    transition: all 1s;
+    font-family: 'Roboto', sans-serif;
+    /* desconsidera o espaço extra e deixa alinhado */
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: var(--cor--topo);
+    display: flex;
+    /* space-between coloca na borda */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header nav a{
+    text-decoration: none;
+    /* color pinta as letras */
+    color: var(--cor--preta);
+}
+/* o hover serve para que quando passar o mouse, aconteça algo */
+#header nav a:hover{
+    background-color: var(--cor--principal);
+    color: var(--cor--branca);
+    border-radius: 20px;
+}
+/* . (ponto) cria uma classe. A diferença dela para o id, é que ela pode ser usada mais de uma vez na página */
+.marginlateral{
+    margin: 0px 20px;
+}
+
+main #banner{
+    background-image: url("../img/Banner.png");
+    height: calc(100vh - 116px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* o cover preenche 100% da tela */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* ao colocar column, o eixo x vira y e o eixo y vira o x */
+    justify-content: center;
+    align-items: center;
+    color: var(--cor--preta);
+}
+
+.marginCimaBaixo{
+    margin: 20px 0px
+}
+
+main #banner h1{
+    color: var(--cor--principal);
+    /* o em é relativo a tela do seu dispositivo. cada em equivale a 16 ponto */
+    font-size: 2em;
+}
+main #banner button{
+    background-color: var(--cor--principal);
+    color: var(--cor--branca);
+    border: none;
+    border-radius: 25px;
+}
+
+main #banner button:hover{
+    cursor: pointer;
+}
+
+/* esse padding vai valer para todos os itens que estão sendo chamados */
+#header, 
+main #banner button, 
+#header nav a:hover, 
+#bemVindo div, 
+main #beneficios #beneficios-nossosBeneficios, 
+main #beneficios #beneficios-servicos, 
+#rodape,
+main #form #form-formulario form{
+    padding: 15px
+}
+
+#bemVindo{
+    /* o display: grid serve para separar */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bemVindo #bemVindo-boasVindas h3{
+    color: var(--cor--principal);
+    margin-bottom: 10px;
+}
+
+main #beneficios{
+    background-color: var(--cor--fundo);
+    color: var(--cor--principal);
+}
+
+main #beneficios #beneficios-nossosBeneficios{
+    color: var(--cor--principal);
+}
+
+main #beneficios #beneficios-nossosBeneficios,
+main #beneficios #beneficios-servicos,
+main #form #form-texto,
+#rodape{
+    text-align: center;
+}
+
+
+main #beneficios #beneficios-servicos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main #form #form-formulario form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main #form #form-formulario form input{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 380px;
+    margin-bottom: 10px;
+}
+
+main #form #form-formulario form button{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor--principal);
+    color: var(--cor--branca);
+    border-radius: 10px;
+    width: 380px;
+    cursor: pointer;
+}
+
+main #form #form-formulario{
+    background-image: url(../img/dog.png);
+    background-repeat: no-repeat;
+    /* contain pega o conteudo da imagem e coloca o que precisa */
+    background-size: contain;
+}
+
+#rodape{
+    background-color: var(--cor--topo);
+}
