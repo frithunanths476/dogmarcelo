@@ -184,7 +184,7 @@ main{
 }
 /* finalização das modificações do css do registro */
 
-
+/* style do dashboard */
 #menu-dashboard{
 
     background-color: #D8F1FBCC;
@@ -222,4 +222,5 @@ main .storymapper-dashboard div{
     border: solid black;
     border-radius: 10px;
 }
+/* style do dashboard */
 
