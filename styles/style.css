@@ -182,15 +182,15 @@ main #form #form-formulario{
     padding: 8px;
     border: none;
     width: 170px;
-    cursor: pointer;
-    display: flex;
     justify-content: left;
     align-items: left;
+    display: block;
+    margin: 10px auto;
 }
 
 main .storymapper-dashboard div{
     background-color: white;
-    width: 350px;
+    width: auto;
     display: inline-block;
     margin: 20px;
     padding: 60px;
