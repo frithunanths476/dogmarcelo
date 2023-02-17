@@ -26,11 +26,6 @@
         display: block;
     }
 }
-@media(max-width:320px){
-    .form-clientes .form-registro #botao form .btn-verde, .form-clientes .form-registro form .botao .btn-vermelho{
-        width: auto;
-    }
-}
 
 @media (max-width: 420px) {
     .form-clientes .form-registro form .botao button {
